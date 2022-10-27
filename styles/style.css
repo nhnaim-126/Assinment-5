@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* other styles -
+-------------
+--------*/
+body{
+ 
+    background-color:#F8FCFF;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* syles for header----
+-----------------
+---------*/
+
+
+.header{
+    width: 1200px;
+    margin: auto;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-items > ul > li{
+    display: inline;
+    margin-left: 20px;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.nav-logo img{
+    width: 85px;
+    height: 15px;
+}
+.nav-icon{
+    border: 2px solid gray;
+    padding:10px 12px;
+    border-radius: 50%;
+}
+/* headign part styles
+------------------
+-------- */
+.heading-part{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 8% auto;
+}
+.heading-info p{
+    font-size: 18px;
+    color:#535354;
+    margin: 30px 0;
+}
+.heading-title{
+    font-size: 81px;
+}
+.heading-icon{
+    display: flex;
+    align-items: center;
+}
+
+.arrow-icon i{
+    background-color: black;
+    color: #F8FCFF;
+    padding:8px;
+}
+.icon-text{
+    margin-left: 20px;
+}
+
+
+
+.heading-info , .headign-thumbnail{
+    width: 50%;
+}
+.thumbnail-bg{
+ position: relative;
+}
+.blue{
+    width: 687px;
+    height: 333px;
+    background-image: linear-gradient(#80D1FF, #44B2F1);
+}
+.gold{
+    width: 233px;
+    height: 333px;
+    background-image: linear-gradient(#FFD968, #FAC422);
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.gold svg{
+  margin-left: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+
+}
+.visa-card{
+    position: absolute;
+    top:-150px;
+    left:-20px;
+}
+.text-png{
+    position: absolute;
+    right: 280px;
+    
+    bottom:40px;
+
+}
+/* styles hot deals 
+----------------
+------------------
+*/
+.offers{
+    width: 1200px;
+    display: flex;
+    gap:10%;
+    margin: 8% auto;
+}
+.offers p{
+    color:#5F5F64;
+    font-size: 17px;
+
+}
+.offers h4{
+    color:#17181A;
+    font-size: 20px;
+    margin: 25px 0;
+}
+.offers i{
+    color:black;
+    font-size: 30px;
+}
+.hot-deal h2{
+   font-size: 35px;
+   margin-bottom: 20px;
+}
+/* sytles for about part
+---------------------
+----------
+ */
+ .About-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#52c0ff64;
+    line-height: 30px;
+    padding:80px;
+    margin-bottom: 50px;
+    position: relative;
+ }
+.About-part h3{
+    font-size: 30px;
+}
+.About-part p{
+    font-size: 16px;
+    color: #5F5F64;
+    margin-top: 20px;
+}
+.elips-png{
+    position: absolute;
+    top: -35px;
+}
+
+/* styles for customer section
+-----------------------
+ */
+ .customers-section{
+    width: 1200px;
+    margin: 10% auto;
+ 
+}
+.customer-title{
+    text-align: center;
+ }
+ .customer-title h1{
+    font-size: 80px;
+
+ }
+ .customer-title p{
+    color:#767E7E;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 40px;
+    margin-bottom: 72px;
+ }
+
+ .column{
+    display: grid;
+    grid-template-columns: 200px 350px 200px 200px;
+    align-items: center;
+    justify-content: center;
+ }
+ .column p{
+    font-size:16px;
+    color:#718176;
+    letter-spacing: 5px;
+    margin-bottom: 16px;
+ }
+ .column h2{
+    font-size: 25px;
+ }
+ .row{
+    border: 2px solid gray;
+    text-align: center;
+    padding:50px;
+ }
+ .frist-row{
+    border: 2px solid gray;
+    text-align: center;
+    padding: 50px;
+    border-left: none;
+ }
+ .last-row{
+    border: 2px solid gray;
+    text-align: center;
+    padding: 50px;
+    border-right: none;
+}
+ 
+/* styles for subscribe
+--------------------
+----------
+ */
+ .subscribe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-color: #41B3F4;
+    padding:30px 8%;
+    margin-top: 5% 0;
+
+ }
+ .subscribe-update p{
+    color:#414449;
+    font-size: 25px;
+    margin-bottom: 30px;
+    border-right: 5px solid tomato;
+ }
+ .newsletter{
+    /* padding-left: 50px; */
+    margin-left: 50px;
+    /* margin-right: 50px; */
+
+ }
+ .newsletter h1{
+    font-size: 60px;
+ }
+ .subscribe-btn{
+    font-size: 18px;
+    color:white;
+    border: none;
+    background-color: #E15C19  ;
+    padding:10px 20px;
+    margin-top: 40px;
+ }
+ .visa-card-repeat{
+    transform: rotate(-64deg);
+    margin-left: 80px;
+ }
+ .visa-card-repeat img{
+    width: 100%;
+ }
+
+ 
