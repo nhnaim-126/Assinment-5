@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* other styles -
 -------------
 --------*/
@@ -15,6 +16,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+
 
 /* syles for header----
 -----------------
@@ -28,71 +31,111 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
+
+
 .nav-items > ul > li{
     display: inline;
-    margin-left: 20px;
+     margin-left: 20px;
 }
+
+
+.nav-items > ul > li > a:hover{
+    color: #44B2F1;
+
+}
+
 .nav-items ul li a{
     text-decoration: none;
     font-size: 15px;
     color: black;
 }
+
+
 .nav-logo img{
     width: 85px;
     height: 15px;
 }
+
+
 .nav-icon{
     border: 2px solid gray;
     padding:10px 12px;
     border-radius: 50%;
 }
+
+
 /* headign part styles
 ------------------
 -------- */
+
+
 .heading-part{
     width: 1200px;
     display: flex;
     align-items: center;
     margin: 8% auto;
 }
+
+
 .heading-info p{
     font-size: 18px;
     color:#535354;
     margin: 30px 0;
 }
+
+
 .heading-title{
     font-size: 81px;
 }
+
+
+.heading-title span{
+    border: 3px solid #FF8A1F;
+    border-radius: 50%;
+    padding:0px 15px;
+}
+
+
 .heading-icon{
     display: flex;
     align-items: center;
 }
+
 
 .arrow-icon i{
     background-color: black;
     color: #F8FCFF;
     padding:8px;
 }
+
+
 .icon-text{
     margin-left: 20px;
 }
 
 
-
 .heading-info , .headign-thumbnail{
     width: 50%;
 }
+
+
 .thumbnail-bg{
  position: relative;
 }
+
+
 .blue{
     width: 687px;
     height: 333px;
     background-image: linear-gradient(#80D1FF, #44B2F1);
 }
+
+
 .gold{
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px;
     width: 233px;
     height: 333px;
     background-image: linear-gradient(#FFD968, #FAC422);
@@ -100,105 +143,130 @@ body{
     top:0;
     right: 0;
 }
-.gold svg{
-  margin-left: 40px;
-  margin-top: 30px;
-  border-radius: 10px;
 
-}
+
 .visa-card{
     position: absolute;
     top:-150px;
     left:-20px;
 }
+
+
 .text-png{
     position: absolute;
     right: 280px;
-    
     bottom:40px;
 
 }
+
+
 /* styles hot deals 
 ----------------
 ------------------
 */
+
+
 .offers{
     width: 1200px;
     display: flex;
+     align-items: center; 
     gap:10%;
     margin: 8% auto;
 }
 
-/* .fa-fire-flame-curved{
-    color: #E15C19;
-    font-size: 50px;
-} */
+
 .offers p{
     color:#5F5F64;
     font-size: 17px;
 
 }
+
+
 .offers h4{
     color:#17181A;
     font-size: 20px;
     margin: 25px 0;
 }
+
+
 .offers i{
     color:black;
     font-size: 30px;
 }
+
+
 .hot-deal h2{
    font-size: 35px;
    margin-bottom: 20px;
 }
+
+
 .hot-deal h2 i{
     font-size: 40px;
     background: -webkit-linear-gradient(tomato, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+
 /* sytles for about part
 ---------------------
 ----------
  */
+
+
  .About-part{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color:#52c0ff64;
+    background-color:#52c0ff49;
     line-height: 30px;
     padding:80px;
     margin-bottom: 50px;
     position: relative;
  }
+
+
 .About-part h3{
     font-size: 30px;
 }
+
+
 .About-part p{
     font-size: 16px;
     color: #5F5F64;
     margin-top: 20px;
 }
+
+
 .elips-png{
     position: absolute;
     top: -35px;
 }
 
+
 /* styles for customer section
 -----------------------
  */
+
+
  .customers-section{
     width: 1200px;
     margin: 10% auto;
- 
 }
+
+
 .customer-title{
     text-align: center;
  }
+
+
  .customer-title h1{
     font-size: 80px;
-
  }
+
+
  .customer-title p{
     color:#767E7E;
     font-size: 16px;
@@ -207,43 +275,131 @@ body{
     margin-bottom: 72px;
  }
 
+
+
  .column{
-    display: grid;
+     display: grid; 
     grid-template-columns: 200px 350px 200px 200px;
     align-items: center;
     justify-content: center;
  }
+
+
  .column p{
     font-size:16px;
     color:#718176;
     letter-spacing: 5px;
     margin-bottom: 16px;
  }
+
+
  .column h2{
     font-size: 25px;
  }
+
+
  .row{
     border: 2px solid gray;
     text-align: center;
     padding:50px;
  }
+
+
  .frist-row{
     border: 2px solid gray;
     text-align: center;
     padding: 50px;
     border-left: none;
  }
+
+
  .last-row{
     border: 2px solid gray;
     text-align: center;
     padding: 50px;
     border-right: none;
 }
- 
+
+
+ /* style for handof part 
+ ---------------------
+ ----------
+ */
+
+
+ .handof-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+ }
+
+
+.customer-activities{
+    width: 610px;
+    height: 412px;
+    background-color: #ffff;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+
+.activities-title{
+    display: flex;
+    align-items: center;   
+}
+
+
+.custom-bg{
+    background-color:#CFEDFF;
+    width: 568px;
+    height: 507px;
+    position: relative;     
+}
+
+
+.custom-bg img{
+    position: absolute;   
+}
+
+
+.handof-details h1{
+    font-size: 52px;  
+}
+
+
+.handof-details > p{
+    font-size: 16px;
+    color:#727272;
+    line-height: 25px;
+     margin-top: 30px; 
+}
+
+
+.stratagic{
+    display: flex;
+    align-items: center;
+}
+
+
+.stratagic h3{
+    font-size: 20px;
+}
+
+
+.stratagic p{
+    font-size: 15px;
+    color:#727272;
+    margin-top: 10px;
+}
+
+
 /* styles for subscribe
 --------------------
 ----------
  */
+
+
  .subscribe{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -253,21 +409,26 @@ body{
     margin-top: 5% 0;
 
  }
+
+
  .subscribe-update p{
     color:#414449;
     font-size: 25px;
     margin-bottom: 30px;
     border-right: 5px solid tomato;
  }
- .newsletter{
-    /* padding-left: 50px; */
-    margin-left: 50px;
-    /* margin-right: 50px; */
 
+
+ .newsletter{
+    margin-left: 50px;
  }
+
+
  .newsletter h1{
     font-size: 60px;
  }
+
+
  .subscribe-btn{
     font-size: 18px;
     color:white;
@@ -275,53 +436,81 @@ body{
     background-color: #E15C19  ;
     padding:10px 20px;
     margin-top: 40px;
+    border-radius: 5px;
  }
+
+
+ .subscribe-btn:hover{
+    transform: scale(1.2);
+    background-color: crimson;
+ }
+
+
  .visa-card-repeat{
     transform: rotate(-64deg);
     margin-left: 80px;
  }
+
+
  .visa-card-repeat img{
     width: 100%;
  }
+
+
 
  /* footer styles
  ----------------
  ---------
   */
+
+
   footer{
     width: 1200px;
     margin: 5% auto;
   }
+
+
   .footer-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 150px;
   }
+
+
   .footer-nav-items ul li{
     list-style: none;
     display: inline;
-    margin-left: 15px;
+     margin-left: 15px;
   }
+
+
   .footer-nav-items ul li a{
     text-decoration: none;
     color:black;
   }
+
+  
   .footer-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top:100px;
   }
+
+
   .footer-bottom p{
     font-size: 12px;
     color:#1B1B1B;
   }
-  .footer-bottom input{
-    width: 800px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    color:gray;
+
+
+  .underline{
+    width: 700px;
+    border: 1px solid gray;
   }
+
+
+  
+
   
